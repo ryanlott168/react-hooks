@@ -30,7 +30,7 @@ function FavoriteAnimal({animal, onAnimalChange}) {
 
 
 function Display({animal}) {
-  return <div>{ animal ? `Your favorite animal is a ${animal}.` : 'You are great!'}</div>
+  return <div>Your favorite animal is: {animal}!</div>
 }
 
 function App() {
